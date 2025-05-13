@@ -50,7 +50,7 @@ export function useRazorpay() {
         // For this demo, we'll use the one passed in
 
         // Test API key - this should come from an environment variable in a real app
-        const key = "rzp_test_YourTestKey"; // Replace with your test key
+        const key = process.env.Test_Key_Secret; // Replace with your test key
 
         // Configure options
         const options = {
