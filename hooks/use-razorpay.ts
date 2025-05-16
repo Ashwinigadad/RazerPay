@@ -51,6 +51,7 @@ export function useRazorpay() {
 
         // Test API key - this should come from an environment variable in a real app
         const key = process.env.Test_Key_Secret; // Replace with your test key
+        console.log(key);
 
         // Configure options
         const options = {
